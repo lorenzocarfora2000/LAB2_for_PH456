@@ -2,6 +2,17 @@ import numpy as np
 from Lab2_main_functions import montecarlo, metropolis, MIS
 import matplotlib.pyplot as plt
 
+"""
+Same naming convention as used for Task 2. Here, list_a (list_b) defines the 
+list of random points obtained via Metropolis algorithm and by imposing the 
+same parameters and distribution functions that would be used for solving the
+problem of point a (point b.)
+
+the parameters x0 and delta did not have the same naming convention, as it was
+not deemed necessary, since it was deemed appropriately clear which parameters
+are applied to which integral.
+"""
+
 #point a:  
 n = int(5e5)
 

@@ -20,7 +20,7 @@ def montecarlo(start, end, n, function):
     
     """
     Each column i of the random_sample is made up of "n" random elements
-    #chosen between "start_i" and "end_i". The if-else condition
+    chosen between "start_i" and "end_i". The if-else condition
     is applied to ease the writing of 1D integrals, as otherwise "random_vals"
     would be written as a matrix, each element corresponding to a row.
     """

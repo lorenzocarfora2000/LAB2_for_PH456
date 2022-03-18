@@ -2,10 +2,19 @@ import numpy as np
 from Lab2_main_functions import montecarlo
 
 #Task 2:
-    
-n = int(1e6)
 
-def a(coord):
+"""
+Taking as an example point (a): 
+-The integrand is coded as a function defined as a;
+-The low boundary is named start_a, and high boundary is named end_a;
+-The integral solution and RMS are returned in a list named sol_a .
+This naming convention is valid for all points. 
+"""
+
+#number of considered iterations
+n = int(1e6)  
+
+def a(x):
     return 2
 
 start_a, end_a = 0, 1
